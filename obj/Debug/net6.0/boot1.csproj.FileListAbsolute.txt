@@ -1,0 +1,15 @@
+/home/scarlettlynn/C#/boot1/bin/Debug/net6.0/boot1
+/home/scarlettlynn/C#/boot1/bin/Debug/net6.0/boot1.deps.json
+/home/scarlettlynn/C#/boot1/bin/Debug/net6.0/boot1.runtimeconfig.json
+/home/scarlettlynn/C#/boot1/bin/Debug/net6.0/boot1.dll
+/home/scarlettlynn/C#/boot1/bin/Debug/net6.0/boot1.pdb
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.csproj.AssemblyReference.cache
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.GeneratedMSBuildEditorConfig.editorconfig
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.AssemblyInfoInputs.cache
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.AssemblyInfo.cs
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.csproj.CoreCompileInputs.cache
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.dll
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/refint/boot1.dll
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.pdb
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/boot1.genruntimeconfig.cache
+/home/scarlettlynn/C#/boot1/obj/Debug/net6.0/ref/boot1.dll
