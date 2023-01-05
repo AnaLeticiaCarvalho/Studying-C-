@@ -13,16 +13,34 @@ Console.WriteLine(dataAtual);*/
 
 // Convertendo tipos de variáveis
 
-int a = Convert.ToInt32("5") ; // Primeira forma de converter variável
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int a = Convert.ToInt32("5"); // Primeira forma de converter variável
 
-Console.WriteLine(a);
+        Console.WriteLine(a);
 
-int b = int.Parse("2"); // Segunda forma de converter variáveis 
+        int b = int.Parse("2"); // Segunda forma de converter variáveis 
 
-/* Diferança entre Convert e Parse
+        /* Diferança entre Convert e Parse
 
-NO Convert se passar o valor Null, ele converte para 0
-Já o Parse, não aceita o Valor Null, dá erro
-Obs: Professor orientou o uso do Convert, para que se houver o Null, não dẽ erro
-e o programa não pare
-*/
+        NO Convert se passar o valor Null, ele converte para 0
+        Já o Parse, não aceita o Valor Null, dá erro
+        Obs: Professor orientou o uso do Convert, para que se houver o Null, não dẽ erro
+        e o programa não pare
+        */
+
+        //Exemplo de como converter para string
+
+      /*  int inteiro = 5;
+= inteiro.ToString; */
+
+int inteiro = 5;
+string c = inteiro.ToString();
+ Console.WriteLine(c);
+    }
+}
+
+
+
