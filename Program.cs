@@ -6,3 +6,7 @@ pessoa1.Name = "Kauã";
 pessoa1.Age = 10;
 
 pessoa1.Apresentar();
+
+DateTime dataAtual = DateTime.Now;
+
+Console.WriteLine(dataAtual);
