@@ -19,9 +19,39 @@ internal class Program
 
 
     {
+        // switch case
+
+        Console.WriteLine("Digite uma letra: ");
+        string letra = Console.ReadLine();
+
+        switch (letra)
+        {
+         case"a":
+         case"e":
+         case"i":
+         case"o":
+         case"u":
+         Console.WriteLine("Vogal");
+         break;
+
+         default:
+
+         Console.WriteLine("Consoante");
+         break;
 
 
-             int quantidade = 10;
+        }
+
+
+
+
+
+
+
+
+
+
+          /*   int quantidade = 10;
              int quantidadeCompra = 4;
              bool possivelVenda = quantidade >= quantidadeCompra;
 
@@ -34,6 +64,7 @@ internal class Program
              {
                 Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
              }
+             */
 
 
 
