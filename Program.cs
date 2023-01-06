@@ -16,12 +16,65 @@ Console.WriteLine(dataAtual);*/
 internal class Program
 {
     private static void Main(string[] args)
+
+
     {
-        int a = Convert.ToInt32("5"); // Primeira forma de converter variável
+
+
+             int quantidade = 10;
+             int quantidadeCompra = 4;
+             bool possivelVenda = quantidade >= quantidadeCompra;
+
+             if (possivelVenda)
+             {
+                Console.WriteLine("Venda realizada!");
+             }
+
+             else
+             {
+                Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
+             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pessoa pessoa1 = new Pessoa();
+
+pessoa1.Name = "Kauã";
+pessoa1.Age = 10;
+
+pessoa1.Apresentar();
+
+DateTime dataAtual = DateTime.Now;
+
+Console.WriteLine(dataAtual);*/
+
+// Convertendo tipos de variáveis
+
+
+        
+        
+        // TryParse tenta converter, se não conseguir, roda o resto do programa
+
+        
+
+       /* int a = Convert.ToInt32("5"); // Primeira forma de converter variável
 
         Console.WriteLine(a);
 
-        int b = int.Parse("2"); // Segunda forma de converter variáveis 
+        int b = int.Parse("2"); // Segunda forma de converter variáveis */
 
         /* Diferança entre Convert e Parse
 
@@ -36,9 +89,9 @@ internal class Program
       /*  int inteiro = 5;
 = inteiro.ToString; */
 
-int inteiro = 5;
+/*int inteiro = 5;
 string c = inteiro.ToString();
- Console.WriteLine(c);
+ Console.WriteLine(c);*/
     }
 }
 
