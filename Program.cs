@@ -19,27 +19,17 @@ internal class Program
 
 
     {
-        // switch case
 
-        Console.WriteLine("Digite uma letra: ");
-        string letra = Console.ReadLine();
 
-        switch (letra)
+        int[] arrayInteiros = new int[3];
+
+        arrayInteiros[0] = 22;
+        arrayInteiros[1] = 64;
+        arrayInteiros[2] = 50;
+
+        for (int contador = 0; contador < arrayInteiros.Length; contador++)
         {
-         case"a":
-         case"e":
-         case"i":
-         case"o":
-         case"u":
-         Console.WriteLine("Vogal");
-         break;
-
-         default:
-
-         Console.WriteLine("Consoante");
-         break;
-
-
+            Console.WriteLine($"Posição N* {contador} - {arrayInteiros[contador]}");
         }
 
 
@@ -51,29 +41,28 @@ internal class Program
 
 
 
-          /*   int quantidade = 10;
-             int quantidadeCompra = 4;
-             bool possivelVenda = quantidade >= quantidadeCompra;
+        // switch case
 
-             if (possivelVenda)
+            /* Console.WriteLine("Digite uma letra: ");
+             string letra = Console.ReadLine();
+
+             switch (letra)
              {
-                Console.WriteLine("Venda realizada!");
-             }
+              case"a":
+              case"e":
+              case"i":
+              case"o":
+              case"u":
+              Console.WriteLine("Vogal");
+              break;
 
-             else
-             {
-                Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
-             }
-             */
+              default:
 
-
-
-
-
-
+              Console.WriteLine("Consoante");
+              break;
 
 
-
+             } */
 
 
 
@@ -81,48 +70,81 @@ internal class Program
 
 
 
-/*Pessoa pessoa1 = new Pessoa();
-
-pessoa1.Name = "Kauã";
-pessoa1.Age = 10;
-
-pessoa1.Apresentar();
-
-DateTime dataAtual = DateTime.Now;
-
-Console.WriteLine(dataAtual);*/
-
-// Convertendo tipos de variáveis
 
 
-        
-        
-        // TryParse tenta converter, se não conseguir, roda o resto do programa
 
-        
+            /*   int quantidade = 10;
+               int quantidadeCompra = 4;
+               bool possivelVenda = quantidade >= quantidadeCompra;
 
-       /* int a = Convert.ToInt32("5"); // Primeira forma de converter variável
+               if (possivelVenda)
+               {
+                  Console.WriteLine("Venda realizada!");
+               }
 
-        Console.WriteLine(a);
+               else
+               {
+                  Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
+               }
+               */
 
-        int b = int.Parse("2"); // Segunda forma de converter variáveis */
 
-        /* Diferança entre Convert e Parse
 
-        NO Convert se passar o valor Null, ele converte para 0
-        Já o Parse, não aceita o Valor Null, dá erro
-        Obs: Professor orientou o uso do Convert, para que se houver o Null, não dẽ erro
-        e o programa não pare
-        */
 
-        //Exemplo de como converter para string
 
-      /*  int inteiro = 5;
-= inteiro.ToString; */
 
-/*int inteiro = 5;
-string c = inteiro.ToString();
- Console.WriteLine(c);*/
+
+
+
+
+
+
+
+
+
+
+            /*Pessoa pessoa1 = new Pessoa();
+
+            pessoa1.Name = "Kauã";
+            pessoa1.Age = 10;
+
+            pessoa1.Apresentar();
+
+            DateTime dataAtual = DateTime.Now;
+
+            Console.WriteLine(dataAtual);*/
+
+            // Convertendo tipos de variáveis
+
+
+
+
+            // TryParse tenta converter, se não conseguir, roda o resto do programa
+
+
+
+            /* int a = Convert.ToInt32("5"); // Primeira forma de converter variável
+
+             Console.WriteLine(a);
+
+             int b = int.Parse("2"); // Segunda forma de converter variáveis */
+
+            /* Diferança entre Convert e Parse
+
+            NO Convert se passar o valor Null, ele converte para 0
+            Já o Parse, não aceita o Valor Null, dá erro
+            Obs: Professor orientou o uso do Convert, para que se houver o Null, não dẽ erro
+            e o programa não pare
+            */
+
+            //Exemplo de como converter para string
+
+            /*  int inteiro = 5;
+      = inteiro.ToString; */
+
+            /*int inteiro = 5;
+            string c = inteiro.ToString();
+             Console.WriteLine(c);*/
     }
 }
 
