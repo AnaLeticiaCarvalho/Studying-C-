@@ -27,7 +27,15 @@ internal class Program
         arrayInteiros[1] = 64;
         arrayInteiros[2] = 50;
 
-        Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+        int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+        Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+       
+       
+       
+       
+       
+        // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
         /*for (int contador = 0; contador < arrayInteiros.Length; contador++)
         {
