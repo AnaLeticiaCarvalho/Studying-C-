@@ -27,18 +27,20 @@ internal class Program
         arrayInteiros[1] = 64;
         arrayInteiros[2] = 50;
 
+        Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
         /*for (int contador = 0; contador < arrayInteiros.Length; contador++)
         {
             Console.WriteLine($"Posição N* {contador} - {arrayInteiros[contador]}");
         }
         */
 
-        /*foreach(int valor in arrayInteiros)
+        foreach(int valor in arrayInteiros)
         {
             Console.WriteLine(valor);
-        }*/
+        }
 
-        Console.WriteLine("Te amo!");
+      //  Console.WriteLine("Te amo!");
 
 
 
